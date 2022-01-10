@@ -21,7 +21,7 @@ function BeforeUseMemoPage() {
       ) : example === Example.WITH_MEMO ? (
         <ExampleWithMemo />
       ) : (
-        <ExampleWithStateDown />
+        <ExampleWithStateUp />
       )}
     </Container>
   );
@@ -60,7 +60,7 @@ const ExampleWithMemo = () => {
   );
 };
 
-const ExampleWithStateDown = () => {
+const ExampleWithStateUp = () => {
   return (
     <ColorBoxWithInput>
       <HeavyComponent />
